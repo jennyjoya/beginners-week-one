@@ -1,0 +1,76 @@
+body {
+  color: rgb(75,0,130);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+div {
+  min-height: 10vh;
+  width: 100vw;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+img {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
+}
+
+p {
+  width: 40%;
+  margin: 10vh 10vw;
+  font-size: 2em;
+}
+
+
+a {
+  color: rgb(186,85,211);
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  list
+  -style: none;
+  display: flex
+}
+
+li {
+  margin: 0 20px
+}
+
+li:hover {
+font-size: 1.2em;
+transition: 0.6s ease;
+}
+
+li#sophie {
+  color: magenta;
+}
+
+div.classname {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
